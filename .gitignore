@@ -1,0 +1,59 @@
+# Environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+!.env.example
+
+# Dependencies
+backend/vendor/
+frontend/node_modules/
+**/vendor/
+**/node_modules/
+
+# Generated frontend and Laravel assets
+frontend/dist/
+**/dist/
+backend/public/build/
+**/public/hot
+
+# Laravel runtime files
+backend/storage/logs/
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/testing/
+backend/storage/framework/views/
+backend/bootstrap/cache/
+backend/database/database.sqlite
+backend/database/*.sqlite
+**/*.log
+**/.phpunit.result.cache
+
+# Local IDE and editor files
+.idea/
+.vscode/
+.fleet/
+.nova/
+.zed/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary and local build files
+*.tmp
+*.temp
+*.bak
+*.cache
+*.pid
+*.seed
+*.pid.lock
+coverage/
+*.local
